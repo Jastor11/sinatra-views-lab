@@ -13,9 +13,9 @@ This lesson practices creating ERB views and rendering them from a Sinatra Actio
 
 For each of the following examples, create a .erb file in the `views` directory and a route in `app.rb` which renders that template. Make sure each template contains the requested content.
 
-Run `shotgun` to start a local server so that you can test your app in your browser. Once your application is running, assuming port 9393, the shotgun default, you should be able to hit the following local urls: http://localhost:9393/hello , http://localhost:9393/goodbye , http://localhost:9393/dogs , http://localhost:9393/cats , and http://localhost:9393/music
+Run `shotgun` to start a local server so that you can test your app in your browser.
 
-You can run `learn` to get the tests passing and see errors.
+You can run `rspec` to get the tests passing and see errors.
 
 1. Create a template called `hello.erb` in `views` that contains an `h1` tag with the content `Hello World`. This should get rendered via a GET `/hello` route by your `App` controller in `app.rb`.
 
